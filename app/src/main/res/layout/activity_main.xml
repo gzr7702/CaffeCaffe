@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gzr7702.caffecaffe.MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="236dp"
+            android:src="@drawable/cat_coffee"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="3dp">
+
+            <ImageView
+                android:id="@+id/address_icon_view"
+                android:layout_width="25dp"
+                android:layout_height="35dp"
+                android:padding="3dp"
+                android:src="@drawable/address"/>
+
+            <TextView
+                android:id="@+id/text_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_horizontal"
+                android:text="@string/address"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="3dp">
+
+            <ImageView
+                android:id="@+id/phone_icon_view"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:padding="3dp"
+                android:src="@drawable/phone"/>
+
+            <TextView
+                android:id="@+id/text_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/contact"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="3dp">
+
+            <ImageView
+                android:id="@+id/hours_icon_view"
+                android:layout_width="25dp"
+                android:layout_height="35dp"
+                android:padding="3dp"
+                android:src="@drawable/hours"/>
+
+            <TextView
+                android:id="@+id/text_hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/hours"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/business_intro"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

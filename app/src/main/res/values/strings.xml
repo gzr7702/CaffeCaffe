@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Caffè Caffè</string>
+    <string name="business_name">Caffè Caffè</string>
+    <string name="contact">718-555-1133</string>
+    <string name="address">704 Hauser St, Astoria, NY 11101</string>
+    <string name="hours">M-F 7a-10p, Sat-Sun 8a-8p</string>
+    <string name="business_intro" translatable="false">
+        Founded 200 years ago by General Giovanni Francesco, an Italian immigrant who served in the civil war and wanted
+        to share the his country\'s love of coffee with Americans, Caffè Caffè has been serving the community ever since.
+        Eech cup is painstakingly handcrafted to perfection.
+    </string>
+</resources>
