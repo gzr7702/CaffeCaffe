@@ -1,4 +1,4 @@
-#CaffeCaffee
+#CaffeCaffe
 
 This application is used as a business card for a fictional business.
 
@@ -6,7 +6,7 @@ This application is used as a business card for a fictional business.
 
 Android Minimum SDK version: 16
 
-Android Target SDK: 23
+Android Target SDK: 25
 
 ##Installation
 git clone https://github.com/gzr7702/CaffeCaffe.git
